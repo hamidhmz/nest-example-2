@@ -1,5 +1,5 @@
 {
-  "name": "nest-example-2",
+  "name": "project",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -23,7 +23,12 @@
   "dependencies": {
     "@nestjs/common": "^7.6.15",
     "@nestjs/core": "^7.6.15",
+    "@nestjs/graphql": "^7.11.0",
+    "@nestjs/mapped-types": "*",
     "@nestjs/platform-express": "^7.6.15",
+    "apollo-server-express": "^2.25.2",
+    "graphql": "^15.5.1",
+    "graphql-tools": "^7.0.5",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^6.6.6"
